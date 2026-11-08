@@ -1,0 +1,25 @@
+{
+  "latest": {
+    "versionCode": 27,
+    "versionName": "0.14.4",
+    "minSdk": 23,
+    "date": "2026-11-08",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.4/cyclone-lite.apk",
+    "size": 2954513,
+    "sha256": "f884ea89bd664593193c4d4b0751bb9a9371f0abf66a19b1fca72c638597c983",
+    "notes": [
+      "The first Cyclone Lite: Cyclone 0.14.4 for Android 6.0 and newer.",
+      "Online services work on old Android, and the app fits small screens."
+    ]
+  },
+  "messages": [
+    {
+      "id": "2026-11-08-welcome-lite",
+      "date": "2026-11-08",
+      "title": "Welcome to Cyclone Lite",
+      "text": "Thanks for riding with Cyclone Lite! To get started: download the map for your area (Options → Offline maps; pick the smallest that covers where you ride), and turn off battery optimisation for Cyclone Lite (Options → This phone) so rides record smoothly with the screen off. New versions show up here as a notification. Found a bug? Options → Beta & updates → Send problem report. Ride safe!",
+      "url": "https://github.com/zakusworo/cyclone-lite#get-started"
+    }
+  ],
+  "supportEmail": "cyclonebikeco@gmail.com"
+}
