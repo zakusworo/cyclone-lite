@@ -7,6 +7,18 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.14.5 · 2026-11-08
+
+**Fixed**
+- **Stops along the route never appeared** on Android 6 to 9 (water, minimarkets, toilets, bike shops on the
+  Ahead page). Their map server, overpass-api.de, now only accepts TLS 1.3 connections, which Android has from
+  version 10. Cyclone Lite now asks public mirrors that still accept older phones, one after another until one
+  answers (a busy one is asked once more first).
+- **"Finish" at the start of out-and-back routes.** On a route that comes back along the same road, the
+  position could be matched to the way home: the turn card said "Finish" and the distance to go read 0.2 km a
+  few hundred metres into a 2 km route. You now stay on the way out until you have turned around, also when
+  the ride was started away from the route.
+
 ## 0.14.4 · 2026-11-08
 
 The first Cyclone Lite: everything in Cyclone 0.14.4, made to run on Android 6.0 and 7.
@@ -24,6 +36,6 @@ The first Cyclone Lite: everything in Cyclone 0.14.4, made to run on Android 6.0
   Android 8.
 
 **Known limits**
-- Stops along the route (water, minimarkets, toilets) don't load on Android 6 to 9 yet.
+- Stops along the route (water, minimarkets, toilets) don't load on Android 6 to 9 yet (fixed in 0.14.5).
 - On Android 6 and 7 offline maps download over a plain connection; each map is checked against its known size
   and header before it is used.

@@ -1,15 +1,15 @@
 {
   "latest": {
-    "versionCode": 27,
-    "versionName": "0.14.4",
+    "versionCode": 28,
+    "versionName": "0.14.5",
     "minSdk": 23,
     "date": "2026-11-08",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.4/cyclone-lite.apk",
-    "size": 2954513,
-    "sha256": "f884ea89bd664593193c4d4b0751bb9a9371f0abf66a19b1fca72c638597c983",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.5/cyclone-lite.apk",
+    "size": 2957388,
+    "sha256": "b77b3ad33629965b0e65b4c26020af3ea1df712deaeec65d7d1c1f967877f53c",
     "notes": [
-      "The first Cyclone Lite: Cyclone 0.14.4 for Android 6.0 and newer.",
-      "Online services work on old Android, and the app fits small screens."
+      "Fixed: stops along the route (water, minimarkets, toilets) now load on Android 6 to 9.",
+      "Fixed: out-and-back routes no longer say \"Finish\" right after the start."
     ]
   },
   "messages": [

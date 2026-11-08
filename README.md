@@ -33,9 +33,12 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.14.4
+## What's new in Lite 0.14.5
 
-The first Cyclone Lite: everything in Cyclone 0.14.4, made to run on Android 6.0 and 7.
+- **Fixed: stops along the route never appeared** (water, minimarkets, toilets, bike shops on the Ahead page). Their usual map server now only accepts a newer kind of secure connection that Android 6 to 9 don't have; Cyclone Lite now asks other servers that still accept these phones, one after another until one answers.
+- **Fixed: "Finish" at the start of out-and-back routes.** On a route that comes back along the same road, the turn card could say "Finish" and the distance to go read almost nothing a few hundred metres in. You now stay on the way out until you have turned around.
+
+From 0.14.4, the first Cyclone Lite: everything in Cyclone 0.14.4, made to run on Android 6.0 and 7.
 
 - **Runs on Android 6 and 7**, tested on a Samsung Galaxy J2 Prime (Android 6.0.1, 1.5 GB): GPS, recording, offline maps, turn-by-turn with street names, and saving rides.
 - **Online services work on old Android.** Android before 7.1.1 doesn't trust the certificates most of Cyclone's services use (weather, routing, map search, update checks); Cyclone Lite brings its own.
@@ -70,7 +73,7 @@ The download is incomplete, or the phone is older than Android 6.0. Delete the d
 | ⛰️ **Climbs** | The climb profile coloured by gradient, the next climb on your route, and metres left to the top. |
 | 📡 **Sensors** | Bluetooth heart rate, speed, cadence and power. ANT+ too on phones that have it. Each bike keeps its own tyre size and sensors. |
 | 🏋️ **Training** | Heart rate and power zones, structured workouts (.zwo files or from Intervals.icu), auto-lap, eat and drink reminders, spoken cues. |
-| 🌦️ **Ahead** | Weather along your route and BMKG weather warnings (Indonesia). |
+| 🌦️ **Ahead** | Weather along your route, BMKG weather warnings (Indonesia) and stops ahead: water, minimarkets, fuel, toilets, mosques, bike shops, medical help. |
 | 📊 **After the ride** | Summary with charts, climbs and best efforts; history, personal records, weekly goals and streaks. Rides are saved as .fit and .gpx files for Strava, Intervals.icu, Garmin Connect or Komoot. |
 | 🆘 **Safety** | Crash detection: after a hard fall and no movement, a message with your location goes to your contact (via ntfy or Telegram) unless you press I'M OK. |
 
@@ -78,7 +81,7 @@ How to use every screen: the [Cyclone tutorial](https://github.com/zakusworo/cyc
 
 ## Known limits on old Android
 
-- **Stops along the route** (water, minimarkets, toilets) don't load on Android 6 to 9 yet: the map server for them now needs a connection type these Android versions don't have. A fix is coming.
+- **Stops along the route** come from public map servers that are often busy; on old Android they can take several minutes to appear the first time.
 - **Offline maps on Android 6 and 7** download over a plain connection, because Android's own downloader can't use the certificates Cyclone Lite brings. Each map is checked against its known size and header before it is used.
 - **Strava's app** needs Android 8, so "Strava (web)" opens Strava's upload page in the phone's browser instead. Old browsers may struggle with it; uploading from a computer always works.
 - **Altitude** comes from GPS on phones without a barometer, and is corrected from terrain data once the phone is online.
