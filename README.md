@@ -13,9 +13,10 @@ Cyclone for Android 6.0 and newer: big numbers, offline maps, turn-by-turn, clim
 
 Free · no account · no ads · about 3 MB
 
-<img src="docs/img/ride.jpg" width="230" alt="Ride screen on a Galaxy J2 Prime: turn arrow with 'Right onto Jalan Jendral Sudirman', speed, timer, distance, averages and distance to go">&nbsp;
-<img src="docs/img/map.jpg" width="230" alt="Map page on the offline map of Java: the route in pink, your position and the next turn">&nbsp;
-<img src="docs/img/home.jpg" width="230" alt="Home screen with CYCLONE LITE, the clock, a big Ride card and tiles for routes, workouts, history, stats, gear, sensors, options and online">
+<img src="docs/img/ride.jpg" width="200" alt="Ride screen on a Galaxy J2 Prime: turn arrow with 'Right onto Jalan Jendral Sudirman', speed, timer, distance, averages and distance to go">&nbsp;
+<img src="docs/img/map.jpg" width="200" alt="Map page on the offline map of Java: the route in pink, your position and the next turn">&nbsp;
+<img src="docs/img/home.jpg" width="200" alt="Home screen with CYCLONE LITE, the clock, a big Ride card and tiles for routes, workouts, history, stats, gear, sensors, options and online">&nbsp;
+<img src="docs/img/insights.jpg" width="200" alt="Ride insights on a Galaxy J2 Prime: a short story of the ride, a new 5 km best, power bests and the longest ride">
 
 </div>
 
@@ -87,7 +88,7 @@ The download is incomplete, or the phone is older than Android 6.0. Delete the d
 | 📡 **Sensors** | Bluetooth heart rate, speed, cadence and power. ANT+ too on phones that have it. Each bike keeps its own tyre size and sensors. |
 | 🏋️ **Training** | Heart rate and power zones, structured workouts (.zwo files or from Intervals.icu), auto-lap, eat and drink reminders, spoken cues. |
 | 🌦️ **Ahead** | Weather along your route, BMKG weather warnings (Indonesia) and stops ahead: water, minimarkets, fuel, toilets, mosques, bike shops, medical help. |
-| 📊 **After the ride** | Summary with charts, climbs and best efforts; history, personal records, weekly goals and streaks. Rides are saved as .fit and .gpx files for Strava, Intervals.icu, Garmin Connect or Komoot. |
+| 📊 **After the ride** | Insights in plain words (bests, pacing, wind, effort and recovery), a summary with charts, climbs and best efforts; history, personal records, weekly goals and streaks. Rides are saved as .fit and .gpx files for Strava, Intervals.icu, Garmin Connect or Komoot. |
 | 🆘 **Safety** | Crash detection: after a hard fall and no movement, a message with your location goes to your contact (via ntfy or Telegram) unless you press I'M OK. |
 
 How to use every screen: the [Cyclone tutorial](https://github.com/zakusworo/cyclone-beta/blob/main/TUTORIAL.md) (the screens are the same in Lite).
