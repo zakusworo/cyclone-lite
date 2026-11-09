@@ -10,8 +10,6 @@ number goes up for Lite's own fixes.
 ## 0.15.0 · 2026-11-09 · O'Connell
 
 Everything new in [Cyclone 0.15.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.0), on Android 6 and newer.
-Versions now have codenames (Auckland streets), shown under the version number on the home screen and on
-**Beta & updates**: 0.14.6 was Hobson, this one is **O'Connell**.
 
 **New**
 - **Ride insights.** The summary of every ride now opens with an **Insights** card: a label for the kind of
