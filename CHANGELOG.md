@@ -7,6 +7,28 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.15.0 · 2026-11-09 · O'Connell
+
+Everything new in [Cyclone 0.15.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.0), on Android 6 and newer.
+Versions now have codenames (Auckland streets), shown under the version number on the home screen and on
+**Beta & updates**: 0.14.6 was Hobson, this one is **O'Connell**.
+
+**New**
+- **Ride insights.** The summary of every ride now opens with an **Insights** card: a label for the kind of
+  ride, a few sentences on how it went, and up to seven short notes, each with a line on what it means:
+  personal bests, how the ride compares with your earlier rides of a similar distance, pacing and why one
+  half was slower, wind and temperature at the time (Open-Meteo), effort and recovery with a heart-rate
+  sensor or power meter, the biggest climb, stops, calories and goals. Everything is worked out on the
+  phone; only an approximate location (about 1 km) and the date go to Open-Meteo for the weather.
+  Checked on a Galaxy J2 Prime (Android 6.0.1, 540 × 960 screen).
+
+**Fixed**
+- **Thousands of metres of climbing on rides without altitude.** One GPS fix far away made the terrain
+  lookup follow a straight line to it: a test ride showed 15,000 m on 1.8 km. It now follows the ride's own
+  distance. Rides filled in by earlier versions are filled in again once, by themselves.
+- **Climbing speed (VAM) in the summary's Climbs list** was too high on phones that write records less
+  often than once a second; it now uses the real riding time.
+
 ## 0.14.6 · 2026-11-09
 
 **Fixed**

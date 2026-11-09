@@ -33,7 +33,15 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.14.6
+## What's new in Lite 0.15.0 "O'Connell"
+
+- **Ride insights.** Every ride summary now starts with a few friendly sentences on how the ride went: new personal bests, how it compares with your other rides, pacing, wind and heat at the time, effort and recovery (with a heart-rate sensor or power meter), climbs and stops. All worked out on your phone.
+- **Fixed: thousands of metres of climbing** on some rides without altitude, after a GPS jump. Affected rides fix themselves the next time they are opened.
+- **Codenames:** each version now has one (an Auckland street), shown under the version number.
+
+<img src="docs/img/insights.jpg" width="230" alt="Ride summary on a Galaxy J2 Prime with the new Insights card: a short story of the ride and notes on a new 5 km best, power bests and the longest ride">
+
+From 0.14.6:
 
 - **Fixed: weather forecast not updating** after syncing rides recorded without altitude. The forecast now updates first, and Cyclone Lite waits out the weather service's per-minute limit instead of giving up.
 - **Fixed: Bluetooth sensors not found with Location off.** On Android 6 to 11 the pairing window now asks you to turn Location on.

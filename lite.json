@@ -1,16 +1,17 @@
 {
   "latest": {
-    "versionCode": 29,
-    "versionName": "0.14.6",
+    "versionCode": 30,
+    "versionName": "0.15.0",
+    "codename": "O'Connell",
     "minSdk": 23,
     "date": "2026-11-09",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.6/cyclone-lite.apk",
-    "size": 2958064,
-    "sha256": "fff8b6eec52b7411c34078783d799694a0269a15065a4aab117695501919d61f",
-    "codename": "Hobson",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.0/cyclone-lite.apk",
+    "size": 2982481,
+    "sha256": "256342ca4ca63ff7f0d49c9ee053619056a648a7795071e19cb46ff0f8eb5f08",
     "notes": [
-      "Fixed: the weather forecast updates again after syncing rides recorded without altitude.",
-      "Fixed: Bluetooth pairing now tells you to turn Location on when it is off."
+      "New: ride insights. Each ride summary now tells you how the ride went: bests, pacing, wind, effort and recovery.",
+      "Fixed: thousands of metres of climbing on some rides without altitude, after a GPS jump.",
+      "Each version now has a codename, shown under the version number."
     ]
   },
   "messages": [
@@ -20,6 +21,13 @@
       "title": "Welcome to Cyclone Lite",
       "text": "Thanks for riding with Cyclone Lite! To get started: download the map for your area (Options → Offline maps; pick the smallest that covers where you ride), and turn off battery optimisation for Cyclone Lite (Options → This phone) so rides record smoothly with the screen off. New versions show up here as a notification. Found a bug? Options → Beta & updates → Send problem report. Ride safe!",
       "url": "https://github.com/zakusworo/cyclone-lite#get-started"
+    },
+    {
+      "id": "2026-11-09-insights-lite",
+      "date": "2026-11-09",
+      "title": "New in Lite 0.15: ride insights",
+      "text": "After each ride, the summary now tells you how it went in plain words: new personal bests, how it compares with your other rides, pacing, the wind and heat on the day, and with a heart-rate sensor or power meter, how hard it was and how to recover. Update, then open any ride in History to see it. Tell us what you think: Options → Beta & updates → Report on GitHub.",
+      "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.0"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"
