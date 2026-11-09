@@ -7,6 +7,7 @@
     "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.6/cyclone-lite.apk",
     "size": 2958064,
     "sha256": "fff8b6eec52b7411c34078783d799694a0269a15065a4aab117695501919d61f",
+    "codename": "Hobson",
     "notes": [
       "Fixed: the weather forecast updates again after syncing rides recorded without altitude.",
       "Fixed: Bluetooth pairing now tells you to turn Location on when it is off."
