@@ -38,7 +38,6 @@ The two are separate apps: you can install both, and each keeps its own rides an
 
 - **Ride insights.** Every ride summary now starts with a few friendly sentences on how the ride went: new personal bests, how it compares with your other rides, pacing, wind and heat at the time, effort and recovery (with a heart-rate sensor or power meter), climbs and stops. All worked out on your phone.
 - **Fixed: thousands of metres of climbing** on some rides without altitude, after a GPS jump. Affected rides fix themselves the next time they are opened.
-- **Codenames:** each version now has one (an Auckland street), shown under the version number.
 
 <img src="docs/img/insights.jpg" width="230" alt="Ride summary on a Galaxy J2 Prime with the new Insights card: a short story of the ride and notes on a new 5 km best, power bests and the longest ride">
 
