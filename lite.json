@@ -1,15 +1,15 @@
 {
   "latest": {
-    "versionCode": 28,
-    "versionName": "0.14.5",
+    "versionCode": 29,
+    "versionName": "0.14.6",
     "minSdk": 23,
-    "date": "2026-11-08",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.5/cyclone-lite.apk",
-    "size": 2957388,
-    "sha256": "b77b3ad33629965b0e65b4c26020af3ea1df712deaeec65d7d1c1f967877f53c",
+    "date": "2026-11-09",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.14.6/cyclone-lite.apk",
+    "size": 2958064,
+    "sha256": "fff8b6eec52b7411c34078783d799694a0269a15065a4aab117695501919d61f",
     "notes": [
-      "Fixed: stops along the route (water, minimarkets, toilets) now load on Android 6 to 9.",
-      "Fixed: out-and-back routes no longer say \"Finish\" right after the start."
+      "Fixed: the weather forecast updates again after syncing rides recorded without altitude.",
+      "Fixed: Bluetooth pairing now tells you to turn Location on when it is off."
     ]
   },
   "messages": [

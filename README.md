@@ -33,7 +33,12 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.14.5
+## What's new in Lite 0.14.6
+
+- **Fixed: weather forecast not updating** after syncing rides recorded without altitude. The forecast now updates first, and Cyclone Lite waits out the weather service's per-minute limit instead of giving up.
+- **Fixed: Bluetooth sensors not found with Location off.** On Android 6 to 11 the pairing window now asks you to turn Location on.
+
+From 0.14.5:
 
 - **Fixed: stops along the route never appeared** (water, minimarkets, toilets, bike shops on the Ahead page). Their usual map server now only accepts a newer kind of secure connection that Android 6 to 9 don't have; Cyclone Lite now asks other servers that still accept these phones, one after another until one answers.
 - **Fixed: "Finish" at the start of out-and-back routes.** On a route that comes back along the same road, the turn card could say "Finish" and the distance to go read almost nothing a few hundred metres in. You now stay on the way out until you have turned around.

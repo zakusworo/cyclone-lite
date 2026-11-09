@@ -7,6 +7,18 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.14.6 · 2026-11-09
+
+**Fixed**
+- **Weather forecast not updating after rides without altitude.** Before a ride goes online, Cyclone Lite fills
+  in missing heights from terrain data. Several such rides in one sync used up the weather service's per-minute
+  limit within seconds, and everything after them failed, the forecast included. The forecast now updates
+  first, and Cyclone Lite waits out the per-minute limit (about a minute) instead of giving up. Checked on
+  Android 6.0.1 with five rides waiting.
+- **Bluetooth sensors not found while Location is off.** Android 6 to 11 show no Bluetooth sensors to apps
+  while the Location switch is off. The pairing window now says so and asks you to turn Location on, instead
+  of searching in vain.
+
 ## 0.14.5 · 2026-11-08
 
 **Fixed**
