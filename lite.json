@@ -1,17 +1,17 @@
 {
   "latest": {
-    "versionCode": 30,
-    "versionName": "0.15.0",
-    "codename": "O'Connell",
+    "versionCode": 31,
+    "versionName": "0.15.1",
+    "codename": "Britomart",
     "minSdk": 23,
-    "date": "2026-11-09",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.0/cyclone-lite.apk",
-    "size": 2982481,
-    "sha256": "256342ca4ca63ff7f0d49c9ee053619056a648a7795071e19cb46ff0f8eb5f08",
+    "date": "2026-11-10",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.1/cyclone-lite.apk",
+    "size": 2985040,
+    "sha256": "2579515018f71efb64fca449a56283ed65656052bce822946fadc69d1b13d5fc",
     "notes": [
-      "New: ride insights. Each ride summary now tells you how the ride went: bests, pacing, wind, effort and recovery.",
-      "Fixed: thousands of metres of climbing on some rides without altitude, after a GPS jump.",
-      "Each version now has a codename, shown under the version number."
+      "Faster GPS start: when the last fix is old, Cyclone Lite asks for fresh GPS time and orbit data.",
+      "No GPS fix after 90 s? The ride screen now says why: no satellites heard (go under open sky) or still searching.",
+      "Problem reports now include a GPS log, so GPS trouble can be looked into."
     ]
   },
   "messages": [
