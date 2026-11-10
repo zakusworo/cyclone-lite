@@ -10,7 +10,7 @@ number goes up for Lite's own fixes.
 ## 0.15.1 · 2026-11-10 · Britomart
 
 Everything new in [Cyclone 0.15.1](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.1), on Android 6 and newer.
-Checked outdoors on a Galaxy J2 Prime (Android 6.0.1): first fix in 34 s after the first satellite was heard.
+Checked on a Galaxy J2 Prime (Android 6.0.1): first fix 94 s after GPS started indoors, walk outside included, ±11 m.
 
 **New**
 - **Faster GPS start.** When the phone's last GPS fix is more than an hour old, Cyclone Lite now asks Android for
