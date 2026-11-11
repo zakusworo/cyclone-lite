@@ -40,6 +40,8 @@ The two are separate apps: you can install both, and each keeps its own rides an
 - **Fixed: an empty GPX no longer replaces your route.** A file with no points is refused, and your route stays.
 - **Faster sync for a new route:** stops first, weather warnings after, and a busy server is left sooner.
 
+<img src="docs/img/ahead.jpg" width="230" alt="Ahead page with Stops ahead filled in: the next mosque, minimarket, toilet, clinic, fuel station, water and bike shop along the route, each with its distance and name">
+
 From 0.15.1 "Britomart":
 
 - **Faster GPS start.** When the last fix is old, Cyclone Lite asks for fresh GPS time and orbit data, so a first fix under open sky takes seconds on most phones.
