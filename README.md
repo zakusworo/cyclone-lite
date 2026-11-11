@@ -34,7 +34,13 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.15.1 "Britomart"
+## What's new in Lite 0.15.2 "Jervois"
+
+- **Fixed: stops ahead missing on some routes**, including ones made in Google Maps. They come back at the next sync.
+- **Fixed: an empty GPX no longer replaces your route.** A file with no points is refused, and your route stays.
+- **Faster sync for a new route:** stops first, weather warnings after, and a busy server is left sooner.
+
+From 0.15.1 "Britomart":
 
 - **Faster GPS start.** When the last fix is old, Cyclone Lite asks for fresh GPS time and orbit data, so a first fix under open sky takes seconds on most phones.
 - **Why GPS is slow, on screen.** No fix after 90 seconds? The ride screen says whether the phone hears no satellites at all (go under open sky) or is still searching.

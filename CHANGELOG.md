@@ -7,6 +7,28 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.15.2 · 2026-11-11 · Jervois
+
+Everything fixed in [Cyclone 0.15.2](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.2), on Android 6 and newer.
+
+**Fixed**
+- **Stops ahead missing on some routes.** When the OpenStreetMap server answered a route's stops search with
+  an empty list (it sometimes does when it is busy, without saying so), Cyclone Lite kept that empty list for good and
+  never searched again, so the Ahead page kept saying *Stops not downloaded yet* however often you synced. Now
+  an empty answer is checked with a second server, kept for 6 hours at most, and **Sync now** always searches
+  again. Routes that showed no stops get them at the next sync.
+- **An empty GPX no longer replaces your route.** A downloaded GPX can hold only the route's name and
+  no points (it happened with a RideWithGPS download). Importing one used to overwrite your route of the same
+  name; now Cyclone Lite says the file has no points and keeps your route.
+
+**Better**
+- **Faster sync for a new route.** Stops now download before the BMKG weather warnings, and **Sync now** skips
+  warnings fetched in the last 10 minutes. A busy stops server is left after 75 seconds instead of being waited
+  on for minutes and then asked again, and the Online screen shows which server Cyclone Lite is waiting on.
+- **Sync now** no longer starts a second sync while one is running; it tells you what the running one is doing.
+- When a search really found no stops along a route, the Ahead and Online screens now say so, instead of
+  *not downloaded yet*.
+
 ## 0.15.1 · 2026-11-10 · Britomart
 
 Everything new in [Cyclone 0.15.1](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.1), on Android 6 and newer.

@@ -1,17 +1,17 @@
 {
   "latest": {
-    "versionCode": 31,
-    "versionName": "0.15.1",
-    "codename": "Britomart",
+    "versionCode": 32,
+    "versionName": "0.15.2",
+    "codename": "Jervois",
     "minSdk": 23,
-    "date": "2026-11-10",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.1/cyclone-lite.apk",
-    "size": 2985040,
-    "sha256": "2579515018f71efb64fca449a56283ed65656052bce822946fadc69d1b13d5fc",
+    "date": "2026-11-11",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.2/cyclone-lite.apk",
+    "size": 2986928,
+    "sha256": "2ce5bbfbe2fac1f0459e9096dc20bfeda15463c5a819106be750a3132a1910ff",
     "notes": [
-      "Faster GPS start: when the last fix is old, Cyclone Lite asks for fresh GPS time and orbit data.",
-      "No GPS fix after 90 s? The ride screen now says why: no satellites heard (go under open sky) or still searching.",
-      "Problem reports now include a GPS log, so GPS trouble can be looked into."
+      "Fixed: stops ahead missing on some routes (an empty answer from the stops server was kept for good). They come back at the next sync.",
+      "Fixed: importing a GPX with no points no longer replaces your route of the same name.",
+      "Faster sync for a new route: stops first, BMKG warnings after, and busy servers are left sooner."
     ]
   },
   "messages": [
@@ -28,6 +28,13 @@
       "title": "New in Lite 0.15: ride insights",
       "text": "After each ride, the summary now tells you how it went in plain words: new personal bests, how it compares with your other rides, pacing, the wind and heat on the day, and with a heart-rate sensor or power meter, how hard it was and how to recover. Update, then open any ride in History to see it. Tell us what you think: Options → Beta & updates → Report on GitHub.",
       "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.0"
+    },
+    {
+      "id": "2026-11-11-stops-ahead-lite",
+      "date": "2026-11-11",
+      "title": "Lite 0.15.2: stops ahead on every route",
+      "text": "On some routes, including ones made in Google Maps, the Ahead page never showed stops, however often you synced: one empty answer from the OpenStreetMap stops server was kept for good. Cyclone Lite 0.15.2 fixes it, and those routes get their stops at the next sync (or tap Online → Sync now). Syncing a new route is quicker too: stops come first, and a busy server is left sooner. And a GPX file with no points no longer replaces your route of the same name. To update: Options → Beta & updates → Check & update.",
+      "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.2"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"
