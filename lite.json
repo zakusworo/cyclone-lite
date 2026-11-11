@@ -1,17 +1,17 @@
 {
   "latest": {
-    "versionCode": 32,
-    "versionName": "0.15.2",
-    "codename": "Jervois",
+    "versionCode": 33,
+    "versionName": "0.15.3",
+    "codename": "Tamaki",
     "minSdk": 23,
-    "date": "2026-11-11",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.2/cyclone-lite.apk",
-    "size": 2986928,
-    "sha256": "2ce5bbfbe2fac1f0459e9096dc20bfeda15463c5a819106be750a3132a1910ff",
+    "date": "2026-11-12",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.3/cyclone-lite.apk",
+    "size": 2991693,
+    "sha256": "8520c23949ad0112403ca3981d225f2a4c6e61186e7e6246b6e28da9d39911d8",
     "notes": [
-      "Fixed: stops ahead missing on some routes (an empty answer from the stops server was kept for good). They come back at the next sync.",
-      "Fixed: importing a GPX with no points no longer replaces your route of the same name.",
-      "Faster sync for a new route: stops first, BMKG warnings after, and busy servers are left sooner."
+      "Type the size printed on your tyre (26 x 1.50, 700x25C, 40-559) and Cyclone works out the wheel size.",
+      "Brand or model not listed? Type your own.",
+      "Fixed: stops ahead on Android 8 and 9 (a missing certificate); 700 × 30C wheel size corrected to 2146 mm (bikes on it move by themselves)."
     ]
   },
   "messages": [
@@ -35,6 +35,13 @@
       "title": "Lite 0.15.2: stops ahead on every route",
       "text": "On some routes, including ones made in Google Maps, the Ahead page never showed stops, however often you synced: one empty answer from the OpenStreetMap stops server was kept for good. Cyclone Lite 0.15.2 fixes it, and those routes get their stops at the next sync (or tap Online → Sync now). Syncing a new route is quicker too: stops come first, and a busy server is left sooner. And a GPX file with no points no longer replaces your route of the same name. To update: Options → Beta & updates → Check & update.",
       "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.2"
+    },
+    {
+      "id": "2026-11-12-tyre-size-lite",
+      "date": "2026-11-12",
+      "title": "Lite 0.15.3: your tyre size, your brand",
+      "text": "Thanks to the tester who asked for 26 × 1.50 and their own bike brand! In Cyclone Lite 0.15.3, Gear → edit your bike → Tyre size → Type the size on the tyre: enter what is printed on the side (26 x 1.50, 700x25C or two numbers like 40-559) for accurate speed from a wheel sensor. Brand not in the list? Tap Not listed? Type your own brand. Also fixed: stops ahead on Android 8 and 9, and the 700 × 30C wheel size (bikes on it are corrected by themselves). To update: Options → Beta & updates → Check & update.",
+      "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.3"
     }
   ],
   "supportEmail": "cyclonebikeco@gmail.com"

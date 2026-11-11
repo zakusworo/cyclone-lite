@@ -7,6 +7,27 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.15.3 · 2026-11-12 · Tamaki
+
+Everything new in [Cyclone 0.15.3](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.3), on Android 6 and newer.
+
+**New**
+- **Type the size on your tyre.** The tyre list in Gear (edit a bike → Tyre size) now starts with *Type the size
+  on the tyre*: enter it as printed on the side, like `26 x 1.50`, `700x25C`, `650b x 47`, `26 x 1-3/8` or the two
+  numbers `40-559`, and Cyclone Lite shows the wheel size as you type. Sizes in Garmin's wheel-size table use Garmin's
+  measured value; others are worked out from the size. The wheel field on the Sensors screen takes a size too.
+- **Your own brand and model.** Not in the list? The brand and model lists now start with *Not listed? Type your
+  own brand…*, and what you type shows at the top as *Use "…"*.
+- **More tyre sizes** from Garmin's table, including 26 × 1.50, 26 × 1.75, 26 × 1-3/8, 27 × 1-1/4 and the 650 sizes.
+
+**Fixed**
+- **Stops ahead on Android 8 and 9.** On these versions Cyclone Lite could reach only some of the backup stops servers;
+  one of them was refused because of a missing security certificate. Cyclone Lite now includes it. (The servers
+  themselves were overloaded on 11–12 November, so a download may still need another try.)
+- **700 × 30C** was set to 2170 mm; Garmin's table says 2146 mm. Road, gravel, city and touring bikes on
+  700 × 30C move to 2146 mm by themselves.
+- An unreadable stops file no longer closes the ride screen.
+
 ## 0.15.2 · 2026-11-11 · Jervois
 
 Everything fixed in [Cyclone 0.15.2](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.2), on Android 6 and newer.

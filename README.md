@@ -34,13 +34,22 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.15.2 "Jervois"
+## What's new in Lite 0.15.3 "Tamaki"
+
+- **Type the size on your tyre** (26 x 1.50, 700x25C, 40-559) and the wheel size is worked out for you: Gear → edit a bike → Tyre size.
+- **Your own brand and model** when they are not in the list: *Not listed? Type your own brand…*
+- **Fixed: stops ahead on Android 8 and 9**, and the 700 × 30C wheel size (now 2146 mm, set by itself).
+
+<p>
+<img src="docs/img/gear-tyre.jpg" width="230" alt="Size on the tyre: 26x1.50 typed in, and below it 26 × 1.50 = 2010 mm, measured, from Garmin's wheel-size table">&nbsp;
+<img src="docs/img/gear-brand.jpg" width="230" alt="Brand list starting with Generic (no brand) and Not listed? Type your own brand…, then Bianchi, BMC, Brompton">
+</p>
+
+From 0.15.2 "Jervois":
 
 - **Fixed: stops ahead missing on some routes**, including ones made in Google Maps. They come back at the next sync.
 - **Fixed: an empty GPX no longer replaces your route.** A file with no points is refused, and your route stays.
 - **Faster sync for a new route:** stops first, weather warnings after, and a busy server is left sooner.
-
-<img src="docs/img/ahead.jpg" width="230" alt="Ahead page with Stops ahead filled in: the next mosque, minimarket, toilet, clinic, fuel station, water and bike shop along the route, each with its distance and name">
 
 From 0.15.1 "Britomart":
 
