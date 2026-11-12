@@ -38,9 +38,13 @@ The two are separate apps: you can install both, and each keeps its own rides an
 
 - **Type the size on your tyre** (26 x 1.50, 700x25C, 40-559) and the wheel size is worked out for you: Gear → edit a bike → Tyre size.
 - **Your own brand and model** when they are not in the list: *Not listed? Type your own brand…*
+- **Every stop to the finish** on the Ahead page: scroll down for the full list, in order, with distances.
+- **Faster stops when servers are busy**, and they come right after you pick or import a route. No more double stops.
+- **Fixed: offline routing data on Android 6** now downloads by itself on Wi-Fi.
 - **Fixed: stops ahead on Android 8 and 9**, and the 700 × 30C wheel size (now 2146 mm, set by itself).
 
 <p>
+<img src="docs/img/ahead-stops.jpg" width="230" alt="Ahead page: Stops ahead, the next stop of each kind, and below it All stops to the finish, every stop in order with its distance">&nbsp;
 <img src="docs/img/gear-tyre.jpg" width="230" alt="Size on the tyre: 26x1.50 typed in, and below it 26 × 1.50 = 2010 mm, measured, from Garmin's wheel-size table">&nbsp;
 <img src="docs/img/gear-brand.jpg" width="230" alt="Brand list starting with Generic (no brand) and Not listed? Type your own brand…, then Bianchi, BMC, Brompton">
 </p>

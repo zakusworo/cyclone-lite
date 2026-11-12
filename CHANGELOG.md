@@ -7,11 +7,22 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+- **Stops download faster when the servers are busy.** Cyclone Lite first asks each stops server whether it has
+  room and starts with the quickest; a server that does not answer is given up on sooner.
+- **Stops come right after you pick or import a route**, not at the next half-hourly sync.
+- **No more double stops**: a shop or clinic mapped twice in OpenStreetMap shows once.
+- **Ahead page:** the forecast shows before the first GPS fix (it said "No forecast yet"), and "no BMKG
+  warnings" is no longer shown in red.
+- **Routes** shows your route straight after an update or restart, and starts its offline routing data.
+- **Offline routing data downloads by itself on Wi-Fi on Android 6** (it never did).
+- The Online screen no longer opens the keyboard.
 ## 0.15.3 · 2026-11-12 · Tamaki
 
 Everything new in [Cyclone 0.15.3](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.3), on Android 6 and newer.
 
 **New**
+- **Every stop to the finish.** Below *Stops ahead* on the Ahead page, a new list shows every stop left on
+  your route in order (distance, kind, name), all the way to the finish: scroll down to see what is at km 30.
 - **Type the size on your tyre.** The tyre list in Gear (edit a bike → Tyre size) now starts with *Type the size
   on the tyre*: enter it as printed on the side, like `26 x 1.50`, `700x25C`, `650b x 47`, `26 x 1-3/8` or the two
   numbers `40-559`, and Cyclone Lite shows the wheel size as you type. Sizes in Garmin's wheel-size table use Garmin's

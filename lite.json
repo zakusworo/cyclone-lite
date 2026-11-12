@@ -6,12 +6,15 @@
     "minSdk": 23,
     "date": "2026-11-12",
     "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.3/cyclone-lite.apk",
-    "size": 2991693,
-    "sha256": "8520c23949ad0112403ca3981d225f2a4c6e61186e7e6246b6e28da9d39911d8",
+    "size": 2995038,
+    "sha256": "6e943cb49616b6956e0d30daf73b745115ce306320414fb6d57bd27378ec2426",
     "notes": [
+      "Ahead page: every stop to the finish, in order, below Stops ahead.",
+      "Stops download faster when servers are busy, and right after you pick or import a route.",
       "Type the size printed on your tyre (26 x 1.50, 700x25C, 40-559) and Cyclone works out the wheel size.",
       "Brand or model not listed? Type your own.",
-      "Fixed: stops ahead on Android 8 and 9 (a missing certificate); 700 × 30C wheel size corrected to 2146 mm (bikes on it move by themselves)."
+      "Fixed: stops ahead on Android 8 and 9 (a missing certificate); 700 × 30C wheel size corrected to 2146 mm (bikes on it move by themselves).",
+      "Fixed on Android 6: offline routing data now downloads by itself on Wi-Fi."
     ]
   },
   "messages": [
@@ -40,7 +43,7 @@
       "id": "2026-11-12-tyre-size-lite",
       "date": "2026-11-12",
       "title": "Lite 0.15.3: your tyre size, your brand",
-      "text": "Thanks to the tester who asked for 26 × 1.50 and their own bike brand! In Cyclone Lite 0.15.3, Gear → edit your bike → Tyre size → Type the size on the tyre: enter what is printed on the side (26 x 1.50, 700x25C or two numbers like 40-559) for accurate speed from a wheel sensor. Brand not in the list? Tap Not listed? Type your own brand. Also fixed: stops ahead on Android 8 and 9, and the 700 × 30C wheel size (bikes on it are corrected by themselves). To update: Options → Beta & updates → Check & update.",
+      "text": "Thanks to the tester who asked for 26 × 1.50 and their own bike brand! In Cyclone Lite 0.15.3, Gear → edit your bike → Tyre size → Type the size on the tyre: enter what is printed on the side (26 x 1.50, 700x25C or two numbers like 40-559) for accurate speed from a wheel sensor. Brand not in the list? Tap Not listed? Type your own brand. Also fixed: stops ahead on Android 8 and 9, and the 700 × 30C wheel size (bikes on it are corrected by themselves). New on the Ahead page: every stop to the finish, scroll down below Stops ahead. To update: Options → Beta & updates → Check & update.",
       "url": "https://github.com/zakusworo/cyclone-lite/releases/tag/v0.15.3"
     }
   ],
