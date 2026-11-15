@@ -34,14 +34,14 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.15.3 "Tamaki"
+## What's new in Lite 0.15.4 "Waterloo"
 
-- **Type the size on your tyre** (26 x 1.50, 700x25C, 40-559) and the wheel size is worked out for you: Gear → edit a bike → Tyre size.
-- **Your own brand and model** when they are not in the list: *Not listed? Type your own brand…*
-- **Every stop to the finish** on the Ahead page: scroll down for the full list, in order, with distances.
-- **Faster stops when servers are busy**, and they come right after you pick or import a route. No more double stops.
-- **Fixed: offline routing data on Android 6** now downloads by itself on Wi-Fi.
-- **Fixed: stops ahead on Android 8 and 9**, and the 700 × 30C wheel size (now 2146 mm, set by itself).
+- **Fixed: sharing from older Google Maps** (on Android 6 phones; it said *Unknown protocol: intent*). There, Share is under **⋮** → *Share directions*.
+- **Stops along long routes, all of them:** every piece of a long course downloads now, and an empty answer from a busy server is asked again. Bentang Jawa (1,442 km): 1,084 stops in one go.
+- **See stops while they download:** Ahead and Online say *so far, still downloading* and show what is found already.
+- **Fixed: long KML and Google Maps routes** no longer close the app while importing.
+- **Every stop to the finish:** distances past 1,000 km line up, and long names fit on one line.
+- Also in 0.15.3: type the size on your tyre, your own brand and model, every stop to the finish on the Ahead page.
 
 <p>
 <img src="docs/img/ahead-stops.jpg" width="230" alt="Ahead page: Stops ahead, the next stop of each kind, and below it All stops to the finish, every stop in order with its distance">&nbsp;

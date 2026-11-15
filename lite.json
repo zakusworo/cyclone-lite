@@ -1,20 +1,19 @@
 {
   "latest": {
-    "versionCode": 33,
-    "versionName": "0.15.3",
-    "codename": "Tamaki",
+    "versionCode": 34,
+    "versionName": "0.15.4",
+    "codename": "Waterloo",
     "minSdk": 23,
-    "date": "2026-11-12",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.3/cyclone-lite.apk",
-    "size": 2995038,
-    "sha256": "6e943cb49616b6956e0d30daf73b745115ce306320414fb6d57bd27378ec2426",
+    "date": "2026-11-15",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.4/cyclone-lite.apk",
+    "size": 3001148,
+    "sha256": "b3ede9fa67237660851c0db63f40e6b9a372c27857c558d20396ab7327199f53",
     "notes": [
-      "Ahead page: every stop to the finish, in order, below Stops ahead.",
-      "Stops download faster when servers are busy, and right after you pick or import a route.",
-      "Type the size printed on your tyre (26 x 1.50, 700x25C, 40-559) and Cyclone works out the wheel size.",
-      "Brand or model not listed? Type your own.",
-      "Fixed: stops ahead on Android 8 and 9 (a missing certificate); 700 × 30C wheel size corrected to 2146 mm (bikes on it move by themselves).",
-      "Fixed on Android 6: offline routing data now downloads by itself on Wi-Fi."
+      "Fixed: routes shared from older Google Maps (on Android 6 phones) failed with \"Unknown protocol: intent\". On those, Share is under ⋮ → Share directions.",
+      "Stops along long routes: every piece downloads now, and empty answers from busy servers are asked again (Bentang Jawa: all 1,084 stops in one go).",
+      "While stops download, Ahead and Online say \"so far, still downloading\" and show what is found already.",
+      "Fixed: long KML and Google Maps routes no longer close the app while importing.",
+      "Every stop to the finish: distances past 1,000 km line up and long names fit on one line."
     ]
   },
   "messages": [
