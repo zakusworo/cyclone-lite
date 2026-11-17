@@ -1,0 +1,3 @@
+# Keep GitHub's automatic "Source code" downloads on releases empty.
+# The app is the APK attached to each release.
+* export-ignore
