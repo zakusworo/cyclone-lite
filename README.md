@@ -34,14 +34,13 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.15.4 "Waterloo"
+## What's new in Lite 0.16.0 "Quay"
 
-- **Fixed: sharing from older Google Maps** (on Android 6 phones; it said *Unknown protocol: intent*). There, Share is under **⋮** → *Share directions*.
-- **Stops along long routes, all of them:** every piece of a long course downloads now, and an empty answer from a busy server is asked again. Bentang Jawa (1,442 km): 1,084 stops in one go.
-- **See stops while they download:** Ahead and Online say *so far, still downloading* and show what is found already.
-- **Fixed: long KML and Google Maps routes** no longer close the app while importing.
-- **Every stop to the finish:** distances past 1,000 km line up, and long names fit on one line.
-- Also in 0.15.3: type the size on your tyre, your own brand and model, every stop to the finish on the Ahead page.
+- **Choose your data fields:** Options → *Data page fields*. Tick what the data page shows under the speed dial and put them in order with ▲ ▼. 19 to choose from, new: speed, total time, descent, gradient, VAM, climbing left, lap and clock.
+- **↺ Default fields** brings back the original 11 in one tap.
+- **Fixed: altitude spikes and too much climbing** on phones without a barometer. GPS height drifts while you stand still, and each stop showed as a spike. Cyclone now holds the height while stopped and, after the ride, uses smoothed terrain heights (like Strava). Older rides are fixed the next time you open them online; their climbing will change, usually down.
+- Small tuning of the ride detection thresholds.
+- Also in 0.15.4: stops along long routes, long KML imports, sharing from older Google Maps.
 
 <p>
 <img src="docs/img/ahead-stops.jpg" width="230" alt="Ahead page: Stops ahead, the next stop of each kind, and below it All stops to the finish, every stop in order with its distance">&nbsp;

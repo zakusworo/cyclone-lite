@@ -1,19 +1,18 @@
 {
   "latest": {
-    "versionCode": 34,
-    "versionName": "0.15.4",
-    "codename": "Waterloo",
+    "versionCode": 35,
+    "versionName": "0.16.0",
+    "codename": "Quay",
     "minSdk": 23,
-    "date": "2026-11-15",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.15.4/cyclone-lite.apk",
-    "size": 3001148,
-    "sha256": "b3ede9fa67237660851c0db63f40e6b9a372c27857c558d20396ab7327199f53",
+    "date": "2026-11-17",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.16.0/cyclone-lite.apk",
+    "size": 3010584,
+    "sha256": "74fa2927a0669f78456010beeaa85f5f5f41132f2d6946df8384d341c2ec2d4b",
     "notes": [
-      "Fixed: routes shared from older Google Maps (on Android 6 phones) failed with \"Unknown protocol: intent\". On those, Share is under ⋮ → Share directions.",
-      "Stops along long routes: every piece downloads now, and empty answers from busy servers are asked again (Bentang Jawa: all 1,084 stops in one go).",
-      "While stops download, Ahead and Online say \"so far, still downloading\" and show what is found already.",
-      "Fixed: long KML and Google Maps routes no longer close the app while importing.",
-      "Every stop to the finish: distances past 1,000 km line up and long names fit on one line."
+      "Choose your data fields: Options → Data page fields. Tick what the data page shows under the speed dial and put them in order with ▲ ▼; 19 to choose from, including speed, total time, descent, gradient, VAM, climbing left, lap and clock.",
+      "↺ Default fields brings back the original 11 in one tap.",
+      "Fixed: altitude spikes and too much climbing on phones without a barometer. Cyclone holds the height while you are stopped, and after the ride (when online) uses smoothed terrain heights instead of GPS height. Rides you already have are fixed the next time you open them online; their climbing will change (usually down).",
+      "Small tuning of the ride detection thresholds."
     ]
   },
   "messages": [

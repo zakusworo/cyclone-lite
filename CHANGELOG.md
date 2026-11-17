@@ -7,6 +7,25 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.16.0 · 2026-11-17 · Quay
+
+Everything new in [Cyclone 0.16.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.16.0), on Android 6 and newer.
+
+**New**
+- **Choose your data fields.** Options → *Data page fields*: tick the numbers the data page shows under the speed
+  dial and put them in order with ▲ ▼, two per row. 19 to choose from; new are speed, total time, descent,
+  gradient, VAM, climbing left on the route, lap and clock. Fewer fields means bigger numbers (up to 14).
+  **↺ Default fields**, at the top and the bottom of that screen, brings back the original 11.
+
+**Fixed**
+- **Altitude spikes and too much climbing on phones without a barometer.** GPS height drifts 10–20 m while you
+  stand still, and the elevation chart (over distance) drew each stop as a spike; the drift also counted as climbing.
+  Cyclone now holds the height while you are stopped and limits how fast GPS height may change. After the ride,
+  when online, GPS height is replaced by terrain heights averaged over about 200 m of road, as Strava does for
+  phones without a barometer. Rides already recorded are fixed the next time you open them online, and rides that
+  already had terrain heights are redone smoothed: their climbing changes, usually down (a 34 km loop: 226 → 168 m).
+- Small tuning of the ride detection thresholds (GPS filtering, crash detection, auto-pause, climbs).
+
 ## 0.15.4 · 2026-11-15 · Waterloo
 
 Everything new in [Cyclone 0.15.4](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.15.4), on Android 6 and newer.
