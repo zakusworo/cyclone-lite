@@ -7,6 +7,23 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.17.0 · 2026-11-19 · Nuffield
+
+Everything new in [Cyclone 0.17.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.17.0), on Android 6 and newer.
+
+**New**
+- **Share card.** After a ride: Summary → *Share card (picture)*. The route, the distance, up to six numbers and
+  the elevation profile on your own photo, contour lines, day, night or a clear sticker; Story, Post or Square;
+  share to WhatsApp or save it. Pick the line colour, write your own title, and drag or pinch the route to move
+  and resize it. The first and last 500 m stay hidden.
+- **Import FIT routes.** Routes → *Import file* (or *Open with* / *Share*) takes FIT courses from Garmin Connect,
+  Komoot, RideWithGPS or Strava, and recorded rides.
+- **Accent colours** (Options → Colours) and a **home wallpaper**: patterns, 12 built-in photos or your own photo,
+  framed to your screen.
+
+**Fixed**
+- Home: the dock shortcuts no longer show black squares over a wallpaper.
+
 ## 0.16.0 · 2026-11-17 · Quay
 
 Everything new in [Cyclone 0.16.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.16.0), on Android 6 and newer.
