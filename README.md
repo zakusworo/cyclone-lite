@@ -34,7 +34,15 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.17.0 "Nuffield"
+## What's new in Lite 0.18.0 "Vulcan"
+
+- **Cyclone on your watch: [Cyclone-Wearable](https://github.com/zakusworo/cyclone-wearable)** for Wear OS watches (Galaxy Watch4 and newer). Rides on the watch alone with map, elevation, stops ahead and turn cues; open *History* near the watch and they come to this phone; picking a route sends it to the watch.
+- **Watch as heart-rate sensor:** fixed `--` after the watch changed its Bluetooth address.
+- **Brighter ride screen:** full brightness while riding (*Ride options → Bright screen while riding*); battery saver no longer dims to 12 %.
+- **Home fits every screen:** on small phones or with large text it scales down instead of scrolling.
+- **Map page fields:** *Ride options → Map page fields*, up to 4 numbers above the map.
+
+From Lite 0.17.0 "Nuffield":
 
 - **Share card:** after a ride, Summary → *Share card (picture)*. Your route, distance and numbers on your own photo, contour lines, day, night or a clear sticker; Story, Post or Square; share to WhatsApp or save it.
 - **Make it yours:** pick the line colour, write your own title, and drag or pinch the route to move and resize it. The first and last 500 m stay hidden.

@@ -7,6 +7,20 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.18.0 · 2026-11-21 · Vulcan
+
+**New**
+- Cyclone-Wearable support: rides from a Wear OS watch come in over Bluetooth when History opens (then Strava (web) /
+  Intervals.icu as usual); choosing a route sends course, profile, climbs, turns and stops to the watch.
+  Watch app and guide: https://github.com/zakusworo/cyclone-wearable
+- Map page fields: Ride options → Map page fields, up to 4 numbers above the map.
+- Bright screen while riding (Ride options, on by default).
+
+**Fixed**
+- Ride screen dim or near black: battery saver forced 12 % brightness; it now only lets the screen time out.
+- Home needed scrolling on small phones or with large text: it now scales down to fit.
+- Watch heart rate stuck at `--`: Cyclone follows a sensor whose Bluetooth address changes.
+
 ## 0.17.0 · 2026-11-19 · Nuffield
 
 Everything new in [Cyclone 0.17.0](https://github.com/zakusworo/cyclone-beta/releases/tag/v0.17.0), on Android 6 and newer.

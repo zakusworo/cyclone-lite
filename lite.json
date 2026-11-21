@@ -1,19 +1,19 @@
 {
   "latest": {
-    "versionCode": 36,
-    "versionName": "0.17.0",
-    "codename": "Nuffield",
+    "versionCode": 37,
+    "versionName": "0.18.0",
+    "codename": "Vulcan",
     "minSdk": 23,
-    "date": "2026-11-19",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.17.0/cyclone-lite.apk",
-    "size": 6666551,
-    "sha256": "c12a1998cee58bdeecadce7b195400ad8e64f1d21ab2294a2c1f575a16804944",
+    "date": "2026-11-21",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.18.0/cyclone-lite.apk",
+    "size": 6678764,
+    "sha256": "69b424f890145a149600dd36c33c5e21ef4f10003fa35761d181eec0addcb5b0",
     "notes": [
-      "Share card: Summary → Share card (picture). Your route, distance and numbers on your own photo, contour lines, day, night or as a clear sticker; Story, Post or Square; share to WhatsApp or save.",
-      "On the card: pick the line colour, write your own title, and drag or pinch the route to move and resize it.",
-      "Import FIT routes: Routes → Import file (or Open with / Share) takes FIT courses from Garmin Connect, Komoot, RideWithGPS or Strava, and recorded rides.",
-      "Accent colours: Options → Colours → Cyan, Orange, Green, Pink, Violet or Amber.",
-      "Home wallpaper: patterns, 12 built-in photos or your own photo, moved and zoomed to fit your screen."
+      "Cyclone-Wearable: Cyclone for Wear OS watches (Galaxy Watch4 and newer). Rides on the watch alone, with map, elevation, stops ahead and turn cues; they come to this phone over Bluetooth when you open History. Guide: github.com/zakusworo/cyclone-wearable",
+      "Watch as heart-rate sensor: Cyclone now follows a watch strap when its Bluetooth address changes (it showed -- before).",
+      "Brighter ride screen: full brightness while riding (Ride options → Bright screen while riding). Battery saver no longer dims the screen to 12 %.",
+      "Home fits every screen: on small phones or with large text it scales down instead of scrolling.",
+      "Map page fields: Ride options → Map page fields picks up to 4 numbers above the map."
     ]
   },
   "messages": [
