@@ -1,19 +1,24 @@
 {
   "latest": {
-    "versionCode": 37,
-    "versionName": "0.18.0",
-    "codename": "Vulcan",
+    "versionCode": 38,
+    "versionName": "0.19.0",
+    "codename": "Khyber Pass",
     "minSdk": 23,
-    "date": "2026-11-21",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.18.0/cyclone-lite.apk",
-    "size": 6678764,
-    "sha256": "69b424f890145a149600dd36c33c5e21ef4f10003fa35761d181eec0addcb5b0",
+    "date": "2026-11-22",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.19.0/cyclone-lite.apk",
+    "size": 6729665,
+    "sha256": "da4980dc879ec66c02fd22608140bc1e52b567747146326145d4d3573189b333",
     "notes": [
-      "Cyclone-Wearable: Cyclone for Wear OS watches (Galaxy Watch4 and newer). Rides on the watch alone, with map, elevation, stops ahead and turn cues; they come to this phone over Bluetooth when you open History. Guide: github.com/zakusworo/cyclone-wearable",
-      "Watch as heart-rate sensor: Cyclone now follows a watch strap when its Bluetooth address changes (it showed -- before).",
-      "Brighter ride screen: full brightness while riding (Ride options → Bright screen while riding). Battery saver no longer dims the screen to 12 %.",
-      "Home fits every screen: on small phones or with large text it scales down instead of scrolling.",
-      "Map page fields: Ride options → Map page fields picks up to 4 numbers above the map."
+      "Segments: keep any stretch of a ride (a climb, your fastest 5 km, any part) and every ride over it is timed and ranked. History → Segments.",
+      "Live segments: 'segment ahead', then your time and gap to your record on the ride screen, and RECORD! at the finish.",
+      "No power meter? Power is estimated from speed, gradient and your weight, live on the ride screen and in the summary, always marked EST.",
+      "Pair watches that hide their heart rate: Sensors → Pair → Show all Bluetooth devices, then tap the watch to check it.",
+      "Delete a ride: in History, long-press it twice.",
+      "Share card: up to 9 numbers, now with elapsed time, descent, max heart rate, power, temperature, wind and personal bests.",
+      "Fresh ride insights: new wordings every ride, and the calories compared with more foods than bananas.",
+      "Home cards are clear glass so your wallpaper shows through; the summary track is dashed where GPS was lost.",
+      "Fixed: offline map downloads failed on some Wi-Fi/mobile networks (IPv6 only): a second server is used and it retries by itself. Failed downloads stay listed with Try again.",
+      "Fixed: with location off the app said 'needs open sky' instead of 'location off'; sharing a problem report on Android 17."
     ]
   },
   "messages": [

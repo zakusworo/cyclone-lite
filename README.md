@@ -34,7 +34,16 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.18.0 "Vulcan"
+## What's new in Lite 0.19.0 "Khyber Pass"
+
+- **Segments:** keep any stretch of a ride (a climb, your fastest 5 km…) and every ride over it is timed and ranked; *History → Segments*.
+- **Live segments:** *SEGMENT AHEAD*, then your time and gap to your record on the ride screen, and *RECORD!* at the finish.
+- **No power meter? Estimated power**, live (*POWER W EST*) and in the summary, always marked as estimated.
+- **Watches that hide their heart rate:** *Sensors → Pair → Show all Bluetooth devices*, tap to check, then pair.
+- **Delete a ride** (long-press twice in History), **share card with up to 9 numbers**, **fresh insight wordings**, **clear glass Home**.
+- **Fixed:** offline map downloads on IPv6-only networks (mirror + automatic retry + *Try again*), and *LOCATION OFF* instead of *NEEDS OPEN SKY*.
+
+From Lite 0.18.0 "Vulcan":
 
 - **Cyclone on your watch: [Cyclone-Wearable](https://github.com/zakusworo/cyclone-wearable)** for Wear OS watches (Galaxy Watch4 and newer). Rides on the watch alone with map, elevation, stops ahead and turn cues; open *History* near the watch and they come to this phone; picking a route sends it to the watch.
 - **Watch as heart-rate sensor:** fixed `--` after the watch changed its Bluetooth address.

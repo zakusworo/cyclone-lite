@@ -7,6 +7,35 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.19.0 · 2026-11-22 · Khyber Pass
+
+**New**
+- **Segments.** Summary → *Make a segment from this ride* (or the 5 / 10 / 20 km buttons under Best efforts): pick a
+  climb, your fastest stretch or any part, check its figures, name it. Every ride that passes it in the same direction,
+  past rides too, is timed and ranked (record, 2nd, 3rd as of that day). *History → Segments* lists them with the
+  record, time per pass and the fastest passes.
+- **Live segments.** On the ride screen: *SEGMENT AHEAD* near a start, a beep and buzz at the start, then your time and
+  the gap to your record (green ahead, yellow behind), and the result at the finish (*RECORD!*).
+- **Estimated power.** Without a power meter, power is worked out from speed, gradient, your weight and the wind:
+  live in the power field (*POWER W EST*) and in the summary (average, zones, best efforts, FTP estimate), always
+  marked as estimated. It is never written to the .fit or uploaded.
+- **Watches that hide their heart rate:** *Sensors → Pair → Show all Bluetooth devices* lists every device, labelled
+  (watch, heart-rate sensor…); tap one to check it has heart rate before pairing. New note on where heart rate can come from.
+- **Delete a ride:** in *History*, long-press a ride twice.
+- **Share card:** up to 9 numbers; new: elapsed, descent, max heart rate, normalized and max power, temperature,
+  wind, personal bests.
+- **Ride insights** use new wordings ride after ride, and compare the calories with 11 foods.
+- **Home:** clear glass cards, so the wallpaper or the routeprint shows through.
+- **Summary track** is dashed where the GPS signal was lost, with tips to keep it.
+
+**Fixed**
+- Offline map downloads failed at once on IPv6-only networks (download.mapsforge.org has no IPv6): Cyclone now uses a
+  mirror when needed, retries once on the other server, and keeps a failed download listed with *Try again*. With no
+  map yet, *Offline maps* finds yours straight away and marks the recommended one.
+- Location switched off showed *NEEDS OPEN SKY*: it now says *LOCATION OFF · TURN ON IN SETTINGS*.
+- Sync could hold up the app for half a minute; the forecast log said "0 points" when it had skipped.
+- Sharing a problem report on Android 17.
+
 ## 0.18.0 · 2026-11-21 · Vulcan
 
 **New**
