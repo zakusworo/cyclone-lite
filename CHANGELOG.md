@@ -7,6 +7,22 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
+## 0.19.1 · 2026-11-23 · Symonds
+
+Incident fix for offline maps.
+
+**Fixed**
+- **Map download stuck at "0 / 0 MB · waiting to start".** On mobile data or a hotspot, Android holds a Wi-Fi-only
+  download without saying so. *Offline maps* now says it is waiting for Wi-Fi and offers *Use mobile data now*.
+- **Downloads Android never starts or stops halfway** (Data Saver, battery managers): *Download in Cyclone instead*
+  downloads the map inside Cyclone, resumes after drops and checks the file. If the phone's downloader is switched
+  off, Cyclone downloads by itself.
+
+**New**
+- **City maps** for Indonesia, 8–155 MB instead of a whole island (Java is 918 MB): Bandung, Jakarta (Jabodetabek),
+  Surabaya, Semarang, Yogyakarta, Solo, Malang, Bali, Palembang. *Find maps for my location* puts your city first.
+  © OpenStreetMap contributors (ODbL), hosted at [cyclone-maps](https://github.com/zakusworo/cyclone-maps).
+
 ## 0.19.0 · 2026-11-22 · Khyber Pass
 
 **New**
