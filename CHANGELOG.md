@@ -7,7 +7,7 @@ version as a notification.
 Version numbers follow the Cyclone version a release is built from (Lite 0.14.4 = Cyclone 0.14.4); the last
 number goes up for Lite's own fixes.
 
-## 0.20.0 · 2026-11-26 · Customs
+## 0.20.0 · 2026-11-26 · Ponsonby
 
 Estimated power for Strava and Intervals.icu, plus fixes.
 
