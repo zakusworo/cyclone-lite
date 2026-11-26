@@ -34,7 +34,12 @@ Both are the same bike computer. Pick by your phone's Android version (Settings 
 
 The two are separate apps: you can install both, and each keeps its own rides and settings.
 
-## What's new in Lite 0.19.1 "Symonds"
+## What's new in Lite 0.20.0 "Customs"
+
+- **Estimated power in uploads:** no power meter? *Ride options → After a ride → Add estimated power to uploads* (off by default) sends Cyclone's estimate to Strava and Intervals.icu. Your ride on the phone keeps sensor data only.
+- **Fixed:** new maps show under *On this phone* straight away; a second map download no longer waits forever; the live segment colour clears when you leave a segment.
+
+From 0.19.1 "Symonds":
 
 - **Fixed:** offline map stuck at *0 / 0 MB · waiting to start*. It now says when it waits for Wi-Fi (*Use mobile data now*), and *Download in Cyclone instead* gets the map when the phone's downloader will not.
 - **City maps** for Indonesia, 8–155 MB instead of a whole island: Bandung, Jakarta, Surabaya, Semarang, Yogyakarta, Solo, Malang, Bali, Palembang. *Find maps for my location* puts your city first.

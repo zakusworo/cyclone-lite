@@ -1,17 +1,18 @@
 {
   "latest": {
-    "versionCode": 39,
-    "versionName": "0.19.1",
-    "codename": "Symonds",
+    "versionCode": 40,
+    "versionName": "0.20.0",
+    "codename": "Customs",
     "minSdk": 23,
-    "date": "2026-11-23",
-    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.19.1/cyclone-lite.apk",
-    "size": 6737546,
-    "sha256": "2dc6c0746090d1e75e731c96e1eb0f3d8ed25909328c608313fe40311c0b31eb",
+    "date": "2026-11-26",
+    "apk": "https://github.com/zakusworo/cyclone-lite/releases/download/v0.20.0/cyclone-lite.apk",
+    "size": 6743072,
+    "sha256": "8983f66e735378b06d4d5a2152330815428871af4edab6a76ed6775db2ed0f2c",
     "notes": [
-      "Fixed: offline map stuck at '0 / 0 MB · waiting to start'. On mobile data or a hotspot it now says it is waiting for Wi-Fi, with 'Use mobile data now'.",
-      "Fixed: if the phone's downloader never starts or stops halfway, tap 'Download in Cyclone instead' and Cyclone downloads the map itself.",
-      "New: city maps for Indonesia (8-155 MB instead of a whole island): Bandung, Jakarta, Surabaya, Semarang, Yogyakarta, Solo, Malang, Bali, Palembang. Offline maps -> Find maps for my location puts your city first."
+      "New: estimated power in uploads for rides without a power meter. Ride options -> After a ride -> Add estimated power to uploads (off by default). The ride on your phone keeps sensor data only.",
+      "Fixed: a map downloaded with 'Download in Cyclone instead' shows under 'On this phone' straight away; city maps show their name on first open.",
+      "Fixed: a second map download could wait forever; Android's daily download limit now keeps the part already downloaded and says Try again.",
+      "Fixed: the live segment colour stayed after leaving a segment."
     ]
   },
   "messages": [
